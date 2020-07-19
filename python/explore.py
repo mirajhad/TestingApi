@@ -1,8 +1,8 @@
 from twilio.rest import Client
 
 client = Client(
-    "AC614ab027351d5f6423512366e0eeae37", 
-    "152c9e03f06d6b322dc3595d5fe6a00e"
+    "SID", 
+    "TOKEN"
     )
 
 for msg in client.messages.list():
@@ -10,8 +10,8 @@ for msg in client.messages.list():
     msg.delete()
 
 # msg = client.messages.create(
-#     to="+916294260120",
-#     from_="+12054984280",
+#     to="+9162942120",
+#     from_="+120549280",
 #     body="hello from python",
 #  )
 
