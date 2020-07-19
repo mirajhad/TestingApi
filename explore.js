@@ -1,7 +1,7 @@
 const Twilio = require("twilio");
 const { error } = require("console");
 
-const client = new Twilio("AC614ab027351d5f6423512366e0eeae37", "152c9e03f06d6b322dc3595d5fe6a00e");
+const client = new Twilio("SID", "TOKEN ");
 
 client.messages
     .list()
